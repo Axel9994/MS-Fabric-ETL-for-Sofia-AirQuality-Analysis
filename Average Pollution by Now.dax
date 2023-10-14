@@ -1,0 +1,1 @@
+Average Pollution by Now = CALCULATE(AVERAGE(airquality_gold[average_pollution]), airquality_gold[month] = MONTH(NOW()), airquality_gold[day] = DAY(NOW()), airquality_gold[hour] = HOUR(NOW()))
